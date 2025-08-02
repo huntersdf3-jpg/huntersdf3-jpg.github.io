@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conciencia Ambiental Perú</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="hero">
+        <header>
+            <div class="header-content">
+                <img src="img/logo.png" alt="Logo de Conciencia Ambiental Perú" class="logo">
+                <h1>Conciencia Ambiental</h1>
+                <p>Información y soluciones para un Perú más verde.</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Problema</a></li>
+                    <li><a href="#gallery-section">Galería</a></li>
+                    <li><a href="#info">Soluciones</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main>
+        <section class="intro" id="intro">
+            <h2>El problema en nuestro país</h2>
+            <p>La contaminación ambiental es un desafío significativo en Perú, afectando a nuestras ciudades, ríos y biodiversidad. Desde la contaminación del aire en grandes metrópolis como Lima hasta la degradación de ecosistemas marinos por plásticos, el problema requiere nuestra atención y acción.</p>
+        </section>
+
+        <section id="gallery-section">
+            <h2>Imágenes que inspiran a la acción</h2>
+            <div class="carousel-container">
+                <div class="carousel-slide">
+                    <img src="img/contaminacion_2.jpg" alt="Imagen de un río contaminado en Perú.">
+                    <img src="img/contaminacion_3.jpg" alt="Basura en la orilla de una playa peruana.">
+                    <img src="img/contaminacion_4.jpg" alt="Manos reciclando botellas.">
+                </div>
+                <button class="prev-btn" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn" aria-label="Siguiente"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+        
+        <section class="info" id="info">
+            <h2>Cómo podemos ayudar</h2>
+            <ul>
+                <li>Reducir, reutilizar y reciclar.</li>
+                <li>Participar en campañas de limpieza.</li>
+                <li>Informar a otros sobre el impacto ambiental.</li>
+            </ul>
+        </section>
+
+        <section class="contact-form" id="contact">
+            <h2>¡Únete al cambio!</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Conciencia Ambiental Perú. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
